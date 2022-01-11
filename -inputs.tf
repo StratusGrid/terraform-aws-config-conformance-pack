@@ -10,7 +10,7 @@ variable "input_tags" {
   }
 }
 
-##### Conformance Pack Variables
+###### Conformance Pack Variables
 
 variable "name" {
   type = string

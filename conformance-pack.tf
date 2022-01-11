@@ -1,4 +1,4 @@
-  # The StratusGrid recommended AWS managed Conformance Pack can be added here as part of Starter script. 
+  ## The StratusGrid recommended AWS managed Conformance Pack can be added here as part of Starter script. 
 locals {
   stratusgrid_recommended_aws_provided_defaults = {
     iam-best-practice = "https://raw.githubusercontent.com/awslabs/aws-config-rules/master/aws-config-conformance-packs/Operational-Best-Practices-for-AWS-Identity-and-Access-Management.yaml",
