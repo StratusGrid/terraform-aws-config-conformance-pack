@@ -27,8 +27,8 @@ variable "use_recommened_custom_defaults" {
 
 variable "extra_conformance_pack_yamls" {
   description = "extra conformance pack yaml files"
-  type    = list(string)
-  default = []
+  type    = map
+  default = {}
 }
 
 
