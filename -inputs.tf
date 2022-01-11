@@ -25,3 +25,10 @@ variable "use_recommened_custom_defaults" {
   default = false
 }
 
+variable "extra_conformance_pack_yamls" {
+  description = "extra conformance pack yaml files"
+  type    = list(string)
+  default = []
+}
+
+
