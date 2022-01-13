@@ -25,6 +25,6 @@ data "http" "sg_conformance_packs" {
 
 resource "aws_config_conformance_pack" "this" {
   for_each = local.conformance_packs_yamls
-  name = "${var.name}-${each.key}"
+  name = "${var.name_prefix}-${var.name}-${each.key}"
   template_body = each.value
 }
