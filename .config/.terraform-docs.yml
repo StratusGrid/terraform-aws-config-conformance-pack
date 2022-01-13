@@ -17,7 +17,7 @@ content: |-
   ## Example with Git Source
 
   ```hcl
-  {{ include "examples/main.tf" }}
+  {{ include "examples/example.tf" }}
   ```
 
   ---

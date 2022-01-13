@@ -40,5 +40,3 @@ variable "extra_conformance_pack_yamls" {
   type    = map
   default = {}
 }
-
-
