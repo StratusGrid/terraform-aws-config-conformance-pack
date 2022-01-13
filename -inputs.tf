@@ -7,10 +7,15 @@ variable "input_tags" {
   }
 }
 
-variable "name" {
-  description = "name of the conformance pack"
+variable "name_prefix" {
+  description = "String to use as prefix on object names"
   type        = string
-  default = ""
+}
+
+variable "name_suffix" {
+  description = "String to append to object names. This is optional, so start with dash if using."
+  type        = string
+  default     = ""
 }
 
 variable "use_recommended_aws_defaults" {
